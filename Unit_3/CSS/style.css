@@ -1,0 +1,22 @@
+h1 {
+	font-family: Lemonade Stand;
+	font-weight: 300;
+	text-align: center;
+	color: #033B30;
+
+}
+h2 {
+	font-family: Lemonade Stand;
+	font-weight: 200;
+	text-align: center;
+	color: #033B30;
+}
+body {
+	font-family: Helvetica;
+	color: #033B30;
+	background: #A3A7AD;
+}
+#slogan {
+	font-style: italic;
+	text-align: center;
+}
