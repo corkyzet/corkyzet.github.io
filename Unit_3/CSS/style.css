@@ -1,24 +1,19 @@
-h1 {
-	font-family: Lemonade Stand;
-	font-weight: 300;
-	font-size: 300;
-	text-align: center;
-	color: #033B30;
-
+* {margin:0;padding:0;box-sizing:border-box;}
+img {
+	width:300px;
 }
-h2 {
-	font-family: Lemonade Stand;
-	font-weight: 200;
-	text-align: center;
-	color: #033B30;
+section {
+	padding:4em 0;
 }
-body {
-	font-family: Helvetica;
-	color: #033B30;
-	background: #A3A7AD;
+ol {
+	padding-left:1.25em;
 }
-#slogan {
-	font-style: italic;
-	text-align: center;
+#intro {
+	background:url(../images/woods.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #fff;
+	font-size: 1.5em;
+	height:90vh;
 }
-
