@@ -3,8 +3,11 @@
 img {
 	width:300px;
 }
-.logo {
+#intro {
 	font-family: 'Quicksand', sans-serif;
+}
+#slogan {
+	font-style: italic;
 }
 section {
 	padding:4em 0;
