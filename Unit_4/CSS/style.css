@@ -6,6 +6,8 @@ img {
 }
 #slogan {
 	font-style: italic;
+	font-weight: lighter;
+	font-size: 75%;
 }
 #blog {
 	font-family: 'Quicksand', sans-serif ;
@@ -17,7 +19,7 @@ img {
 	font-family: 'Amatic SC', sans-serif;
 }
 #footer {
-	font-family: 'Amatic SC', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 }
 section {
@@ -34,6 +36,6 @@ ol {
 	background-repeat:no-repeat;
 	background-position: center;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	height:90vh;
 }
