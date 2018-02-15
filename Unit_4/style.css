@@ -5,10 +5,24 @@ img {
 	width:300px;
 }
 #intro {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Amatic SC', sans-serif;
+	font-weight: bold;
 }
 #slogan {
 	font-style: italic;
+}
+#blog {
+	font-family: 'Quicksand', sans-serif ;
+}
+#older {
+	font-family: 'Quicksand', sans-serif ;
+}
+#pinned {
+	font-family: 'Amatic SC', sans-serif;
+}
+#footer {
+	font-family: 'Amatic SC', sans-serif;
+	font-weight: bold;
 }
 section {
 	padding:4em 0;
