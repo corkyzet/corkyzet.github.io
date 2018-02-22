@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Covered+By+Your+Grace|Nanum+Gothic+Coding|Quicksand|Reem+Kufi|Shadows+Into+Light|Voltaire');
+
+* {margin:0;padding:0;box-sizing:border-box;}
+img {
+	width:300px;
+}
+#header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+#section_1 {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+#nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+#blog {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+#older {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+#footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+#section_2 {
+	font-family: 'Amatic SC', sans-serif;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+#slogan {
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 75%;
+}
+#blog {
+	font-family: 'Quicksand', sans-serif ;
+}
+#older {
+	font-family: 'Quicksand', sans-serif ;
+}
+
+section {
+	padding:4em 0;
+}
+ol {
+	padding-left:1.25em;
+}
+#intro {
+	font-family: 'Amatic SC', sans-serif;
+	font-weight: bold;
+	background:url(../images/woods.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #fff;
+	font-size: 2.5em;
+	height:90vh;
+}
+
