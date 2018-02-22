@@ -18,6 +18,10 @@ img {
 	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
 }
 #blog {
 	background-color: #E89C6C;
