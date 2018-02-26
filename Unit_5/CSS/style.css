@@ -10,7 +10,7 @@ img {
 	padding: 20px;
 }
 #section_1 {
-	background-color: #FFE2B8;
+	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -24,14 +24,18 @@ img {
 	font-size: 35px;
 }
 #blog {
-	background-color: #E89C6C;
+	background-color: #E582A2;
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
+	width: 30%;
 }
 #older {
-	background-color: #FFC675;
+	background-color: #E55B88;
 	border: 1px black solid;
 	padding: 20px;
+	float: right;
+	width: 62%;
 }
 #footer {
 	background-color: #FF957E;
@@ -40,7 +44,7 @@ img {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 }
-#section_2 {
+#pinned {
 	font-family: 'Amatic SC', sans-serif;
 	background-color: #FFE2B8;
 	border: 1px black solid;
@@ -68,7 +72,7 @@ ol {
 	font-family: 'Amatic SC', sans-serif;
 	font-weight: bold;
 	background:url(../images/woods.jpg);
-	background-size:cover;
+	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: center;
 	color: #fff;
