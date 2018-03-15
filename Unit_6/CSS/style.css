@@ -44,11 +44,15 @@ img {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 }
-#pinned {
+#Pinned {
 	font-family: 'Amatic SC', sans-serif;
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
+
+}
+#Pinned a {
+	float: left;
 }
 #slogan {
 	font-style: italic;
