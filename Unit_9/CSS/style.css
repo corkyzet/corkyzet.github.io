@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Covered+By+Your+Grace|Nanum+Gothic+Coding|Quicksand|Reem+Kufi|Shadows+Into+Light|Voltaire');
+
+* {margin:0;padding:0;box-sizing:border-box;}
+img {
+	width:100%;
+}
+#header {
+	background-color: #bccac6;
+	border: 1% black solid;
+	padding: 5%;
+}
+#section_1 {
+	background-color: #bccac6;
+	border: 1% black solid;
+	padding: 5%;
+}
+#nav {
+	background-color: #5e6d6f;
+	border: 1% black solid;
+	padding: 2%;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+}
+#nav a {
+	padding: 0 2%;
+}
+#blog {
+	background-color: #bccac6;
+	border: 3px solid black;
+	padding: 2%;
+	float: left;
+	width: 70%;
+}
+#older {
+	background-color: #bccac6;
+	border: 3px solid black;
+	padding: 2%;
+	float: right;
+	width: 25%;
+}
+#footer {
+	background-color: #5e6d6f;
+	text-align: center;
+	border: 1% black solid;
+	padding: 2%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+#Pinned {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #bccac6;
+	text-align: center;
+	border: 1% black solid;
+	padding: 2%;
+}
+#Pinned div {
+	display: inline-block;
+	vertical-align: top;
+	padding: 2%;
+	width: 33%;
+	box-sizing: border-box;
+}
+#slogan {
+	font-style: italic;
+	font-weight: lighter;
+	font-size: .75em;
+}
+#blog {
+	font-family: 'Quicksand', sans-serif ;
+}
+#older {
+	font-family: 'Quicksand', sans-serif ;
+}
+
+section {
+	padding:4em 0;
+}
+ol {
+	padding-left:1.25em;
+}
+#intro {
+	font-family: 'Amatic SC', sans-serif;
+	font-weight: bold;
+	background:url(../Images/woods.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #fff;
+	font-size: 2.5em;
+	height:70vh;
+}
+.clearfix:after {
+	display:block;    
+	clear:both;
+	content:"";
+}
+@media only screen and (max-width: 920px) {
+
+#Pinned div {
+	display: block;
+	width: 100%;
+}
+#nav {
+	font-size: 1.5em;
+}
+}
+@media only screen and (max-width: 480px) {
+
+	#blog, #older {
+		display: block;
+		width: 100%;
+		float:none;
+	}
+	#older {
+		margin: 5% 0 0 0;
+	}
+	#nav {
+		font-size: 1em;
+}
+	#intro {
+		font-size: 2em;
+	}
+	#intro h2 {
+		font-size: 1em;
+	}
+	#slogan {
+		font-size: .75em;
+	}
+}
